@@ -1,0 +1,7 @@
+{
+    "settings": {
+        "file-format": "mkv",
+        "directory": "/js/",
+        "notify": false
+    }
+}

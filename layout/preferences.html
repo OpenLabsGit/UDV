@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Preferences</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 5px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Preferences</h1>
+
+  <label>
+    File Format:
+    <input type="text" id="file-format-input">
+  </label>
+
+  <label>
+    Directory:
+    <input type="text" id="directory-input">
+  </label>
+
+  <label>
+    Notify:
+    <input type="checkbox" id="notify-checkbox">
+  </label>
+
+  <button id="save-button">Save</button>
+
+  <script src="../js/renderer.js"></script>
+</body>
+</html>
